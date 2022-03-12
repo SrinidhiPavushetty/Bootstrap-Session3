@@ -20,7 +20,7 @@
             <h4 class="mt-2">Create a new account</h4>
             <p>It's quick and easy.</p>
             <hr color="grey">
-            <div class=" px-3 py-1 row">
+            <div class=" col row">
                 <div class="col">
                     <input type="text" class=" m-1 form-control" placeholder="First Name">
                 </div>
@@ -28,17 +28,17 @@
                     <input type="text" class=" m-1 form-control" placeholder="Surname">
                 </div>
             </div>
-                <div class="px-3 py-1 input">
+                <div class=" col">
                     <input type="text" class=" m-1 form-control" placeholder="Mobile number or Email address">
                 </div>
-                <div class="input">
-                <div class="px-3 py-1 input">
+                <div class="col">
+                <div class=" col">
                     <input type="text" class=" m-1 form-control" placeholder="New password">
                 </div>
         </div>
-        <p class="pt-2 ">Date of birth <i class="fa-solid fa-circle-question"></i></p>
-        <div class="px-2 py-1">
-            <select class=" form-select-inline px-3 py-1 mx-3 border border-grey">
+        <label class="pt-2 form-label-sm ">Date of birth <i class="fa-solid fa-circle-question"></i></label>
+        <div class="row mx-auto">
+            <select class=" col form-select form-select-sm mb-3 m-1" aria-label="form-select-lg example">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -71,7 +71,7 @@
                 <option value="30">30</option>
                 <option value="31">31</option>
             </select>
-            <select class=" form-select-inline px-3 py-1 mx-3 border border-grey">
+            <select class=" col form-select  form-select-sm mb-3 m-1" aria-label="form-select-lg example">
                 <option value="1">Jan</option>
                 <option value="2">Feb</option>
                 <option value="3">March</option>
@@ -85,7 +85,7 @@
                 <option value="11">Nov</option>
                 <option value="12">Dec</option>
             </select>
-            <select class=" form-select-inline px-3 py-1 mx-3 border border-grey">
+            <select class=" col form-select form-select-sm mb-3 m-1" aria-label="form-select-lg example">
                 <option value="1">2022</option>
                 <option value="2">2021</option>
                 <option value="3">2020</option>
@@ -118,18 +118,18 @@
                 <option value="30">1993</option>
                 <option value="31">1992</option>
             </select>
-        </div>
-        <p class="pt-2">Gender <i class="fa-solid fa-circle-question"></i></p>
-        <div>
-            <div class="form-check form-check-inline px-3 py-1 mx-3">
+    </div>
+        <label class="pt-2">Gender <i class="fa-solid fa-circle-question"></i></label>
+        <div class="row mx-1">
+            <div class="col form-check border m-1">
                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" >
                 <label class="form-check-label">Female</label>
               </div>
-              <div class="form-check form-check-inline px-3 py-1 mx-3">
+              <div class="col form-check border m-1">
                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" >
                 <label class="form-check-label">Male</label>
               </div>
-              <div class="form-check form-check-inline px-3 py-1 mx-3">
+              <div class="col form-check border m-1">
                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                 <label class="form-check-label">Custom</label>
               </div>
